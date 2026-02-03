@@ -44,12 +44,11 @@ namespace Gamekit2D
         public float meleeAttackDashSpeed = 5f;
         public bool dashWhileAirborne = false;
 
-        public RandomAudioPlayer footstepAudioPlayer;
-        public RandomAudioPlayer landingAudioPlayer;
-        public RandomAudioPlayer hurtAudioPlayer;
-        public RandomAudioPlayer meleeAttackAudioPlayer;
-        public RandomAudioPlayer rangedAttackAudioPlayer;
-
+        public WwiseAudioPlayer footstepAudioPlayer;
+        public WwiseAudioPlayer landingAudioPlayer;
+        public WwiseAudioPlayer hurtAudioPlayer;
+        public WwiseAudioPlayer meleeAttackAudioPlayer;
+        public WwiseAudioPlayer rangedAttackAudioPlayer;
         public float shotsPerSecond = 1f;
         public float bulletSpeed = 5f;
         public float holdingGunTimeoutDuration = 10f;
@@ -330,7 +329,7 @@ namespace Gamekit2D
             bullet.rigidbody2D.linearVelocity = new Vector2(facingLeft ? -bulletSpeed : bulletSpeed, 0f);
             bullet.spriteRenderer.flipX = facingLeft ^ bullet.bullet.spriteOriginallyFacesLeft;
 
-            rangedAttackAudioPlayer.PlayRandomSound();
+            rangedAttackAudioPlayer.Play();
         }
 
         // Public functions - called mostly by StateMachineBehaviours in the character's Animator Controller but also by Events.
@@ -443,7 +442,7 @@ namespace Gamekit2D
 
                 if (!wasGrounded && m_MoveVector.y < -1.0f)
                 {//only play the landing sound if falling "fast" enough (avoid small bump playing the landing sound)
-                    landingAudioPlayer.PlayRandomSound(m_CurrentSurface);
+                    landingAudioPlayer.Play(m_CurrentSurface);
                 }
             }
             else
@@ -696,7 +695,7 @@ namespace Gamekit2D
                 m_Animator.SetTrigger(m_HashForcedRespawnPara);
 
             m_Animator.SetBool(m_HashGroundedPara, false);
-            hurtAudioPlayer.PlayRandomSound();
+            hurtAudioPlayer.Play();
 
             //if the health is < 0, mean die callback will take care of respawn
             if(damager.forceRespawn && damageable.CurrentHealth > 0)
@@ -750,7 +749,7 @@ namespace Gamekit2D
         {
             meleeDamager.EnableDamage();
             meleeDamager.disableDamageAfterHit = true;
-            meleeAttackAudioPlayer.PlayRandomSound();
+            meleeAttackAudioPlayer.Play();
         }
 
         public void DisableMeleeAttack()
@@ -766,7 +765,7 @@ namespace Gamekit2D
 
         public void PlayFootstep()
         {
-            footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
+            footstepAudioPlayer.Play(m_CurrentSurface);
             var footstepPosition = transform.position;
             footstepPosition.z -= 1;
             VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
