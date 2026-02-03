@@ -49,13 +49,13 @@ public class MissileGolem : MonoBehaviour
     public AudioClip postBossClip;
     public AudioClip bossMusic;
     [Space]
-    public RandomAudioPlayer stepAudioPlayer;
-    public RandomAudioPlayer laserFireAudioPlayer;
-    public RandomAudioPlayer grenadeThrowAudioPlayer;
-    public RandomAudioPlayer lightingAttackAudioPlayer;
-    public RandomAudioPlayer takingDamage;
-    public RandomAudioPlayer shieldUpAudioPlayer;
-    public RandomAudioPlayer shieldDownAudioPlayer;
+    public WwiseAudioPlayer stepAudioPlayer;
+    public WwiseAudioPlayer laserFireAudioPlayer;
+    public WwiseAudioPlayer grenadeThrowAudioPlayer;
+    public WwiseAudioPlayer lightingAttackAudioPlayer;
+    public WwiseAudioPlayer takingDamage;
+    public WwiseAudioPlayer shieldUpAudioPlayer;
+    public WwiseAudioPlayer shieldDownAudioPlayer;
     [Space]
     public AudioSource roundDeathSource;
     public AudioClip startRound2Clip;
@@ -192,7 +192,7 @@ public class MissileGolem : MonoBehaviour
 
     void ActivateShield()
     {
-        shieldUpAudioPlayer.PlayRandomSound();
+        shieldUpAudioPlayer.Play();
 
         shield.SetActive(true);
         shield.transform.localScale = Vector3.one * 0.01f;
@@ -209,7 +209,7 @@ public class MissileGolem : MonoBehaviour
 
     void FireLaser()
     {
-        laserFireAudioPlayer.PlayRandomSound();
+        laserFireAudioPlayer.Play();
 
         var p = Instantiate(projectile);
         var dir = -beamLaser.transform.right;
@@ -219,7 +219,7 @@ public class MissileGolem : MonoBehaviour
 
     void ThrowGrenade()
     {
-        grenadeThrowAudioPlayer.PlayRandomSound();
+        grenadeThrowAudioPlayer.Play();
 
         var p = Instantiate(grenade);
         p.transform.position = grenadeSpawnPoint.position;
@@ -233,7 +233,7 @@ public class MissileGolem : MonoBehaviour
 
     void ActivateLightning()
     {
-        lightingAttackAudioPlayer.PlayRandomSound();
+        lightingAttackAudioPlayer.Play();
 
         var p = Instantiate(lightning) as GameObject;
         p.transform.position = transform.position;
@@ -359,7 +359,7 @@ public class MissileGolem : MonoBehaviour
 
     public void Damaged(Damager damager, Damageable damageable)
     {
-        takingDamage.PlayRandomSound();
+        takingDamage.Play();
 
         m_CurrentHealth -= damager.damage;
         healthSlider.value = m_CurrentHealth;
@@ -367,7 +367,7 @@ public class MissileGolem : MonoBehaviour
 
     public void ShieldDown()
     {
-        shieldDownAudioPlayer.PlayRandomSound();
+        shieldDownAudioPlayer.Play();
         damageable.DisableInvulnerability();
     }
 
@@ -378,7 +378,7 @@ public class MissileGolem : MonoBehaviour
 
     public void PlayStep()
     {
-        stepAudioPlayer.PlayRandomSound();
+        stepAudioPlayer.Play();
     }
 
 #if UNITY_EDITOR
