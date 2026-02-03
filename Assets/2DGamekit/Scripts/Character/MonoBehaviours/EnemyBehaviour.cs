@@ -52,10 +52,10 @@ namespace Gamekit2D
         public Transform shootingOrigin;
 
         [Header("Audio")]
-        public RandomAudioPlayer shootingAudio;
-        public RandomAudioPlayer meleeAttackAudio;
-        public RandomAudioPlayer dieAudio;
-        public RandomAudioPlayer footStepAudio;
+        public WwiseAudioPlayer shootingAudio;
+        public WwiseAudioPlayer meleeAttackAudio;
+        public WwiseAudioPlayer dieAudio;
+        public WwiseAudioPlayer footStepAudio;
 
         [Header("Misc")]
         [Tooltip("Time in seconds during which the enemy flicker after being hit")]
@@ -323,7 +323,7 @@ namespace Gamekit2D
             if((m_Target.transform.position - transform.position).sqrMagnitude < (meleeRange * meleeRange))
             {
                 m_Animator.SetTrigger(m_HashMeleeAttackPara);
-                meleeAttackAudio.PlayRandomSound();
+                meleeAttackAudio.Play();
             }
         }
 
@@ -365,7 +365,7 @@ namespace Gamekit2D
             }
 
             m_Animator.SetTrigger(m_HashShootingPara);
-            shootingAudio.PlayRandomSound();
+            shootingAudio.Play();
 
             m_FireTimer = 1.0f;
         }
@@ -380,7 +380,7 @@ namespace Gamekit2D
 
             BulletObject obj = m_BulletPool.Pop(shootingOrigin.TransformPoint(shootPosition));
 
-            shootingAudio.PlayRandomSound();
+            shootingAudio.Play();
 
             obj.rigidbody2D.linearVelocity = (GetProjectilVelocity(m_TargetShootPosition, shootingOrigin.transform.position));
         }
@@ -455,7 +455,7 @@ namespace Gamekit2D
 
             m_Animator.SetTrigger(m_HashDeathPara);
 
-            dieAudio.PlayRandomSound();
+            dieAudio.Play();
 
             m_Dead = true;
             m_Collider.enabled = false;
@@ -525,7 +525,7 @@ namespace Gamekit2D
 
         public void PlayFootStep()
         {
-            footStepAudio.PlayRandomSound();
+            footStepAudio.Play();
         }
 
 #if UNITY_EDITOR
