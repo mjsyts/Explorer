@@ -44,10 +44,11 @@ public class MissileGolem : MonoBehaviour
     public UnityEvent onDefeated;
 
     [Header("Audio")]
-    public AudioClip bossDeathClip;
-    public AudioClip playerDeathClip;
-    public AudioClip postBossClip;
-    public AudioClip bossMusic;
+    // we'll skip music stuff for now since this is a sound design demo
+    // public AudioClip bossDeathClip;
+    // public AudioClip playerDeathClip;
+    // public AudioClip postBossClip;
+    // public AudioClip bossMusic;
     [Space]
     public WwiseAudioPlayer stepAudioPlayer;
     public WwiseAudioPlayer laserFireAudioPlayer;
@@ -57,9 +58,9 @@ public class MissileGolem : MonoBehaviour
     public WwiseAudioPlayer shieldUpAudioPlayer;
     public WwiseAudioPlayer shieldDownAudioPlayer;
     [Space]
-    public AudioSource roundDeathSource;
-    public AudioClip startRound2Clip;
-    public AudioClip startRound3Clip;
+    // public AudioSource roundDeathSource;
+    // public AudioClip startRound2Clip;
+    // public AudioClip startRound3Clip;
     public AudioClip deathClip;
 
     [Header("UI")]
@@ -158,9 +159,9 @@ public class MissileGolem : MonoBehaviour
             BT.Terminate()
         );
 
-        BackgroundMusicPlayer.Instance.ChangeMusic(bossMusic);
-        BackgroundMusicPlayer.Instance.Play();
-        BackgroundMusicPlayer.Instance.Unmute(2.0f);
+        // BackgroundMusicPlayer.Instance.ChangeMusic(bossMusic);
+        // BackgroundMusicPlayer.Instance.Play();
+        // BackgroundMusicPlayer.Instance.Unmute(2.0f);
 
         //we aggregate the total health to set the slider to the proper value
         //(as the boss is actually "killed" every round and regenerated, we can't use directly its current health)
@@ -187,7 +188,7 @@ public class MissileGolem : MonoBehaviour
 
     void PlayerDied(Damager d, Damageable da)
     {
-        BackgroundMusicPlayer.Instance.PushClip(playerDeathClip);
+        // BackgroundMusicPlayer.Instance.PushClip(playerDeathClip);
     }
 
     void ActivateShield()
@@ -242,7 +243,7 @@ public class MissileGolem : MonoBehaviour
 
     void DeactivateLighting()
     {
-        lightingAttackAudioPlayer.Stop();
+        lightingAttackAudioPlayer.Break();
     }
 
     private void FixedUpdate()
@@ -273,12 +274,12 @@ public class MissileGolem : MonoBehaviour
         shieldSlider.GetComponent<Animator>().Play("BossShieldDefeat");
         healthSlider.GetComponent<Animator>().Play("BossHealthDefeat");
 
-        BackgroundMusicPlayer.Instance.ChangeMusic(postBossClip);
-        BackgroundMusicPlayer.Instance.PushClip(bossDeathClip);
+        // BackgroundMusicPlayer.Instance.ChangeMusic(postBossClip);
+        // BackgroundMusicPlayer.Instance.PushClip(bossDeathClip);
 
-        roundDeathSource.clip = deathClip;
-        roundDeathSource.loop = false;
-        roundDeathSource.Play();
+        // roundDeathSource.clip = deathClip;
+        // roundDeathSource.loop = false;
+        // roundDeathSource.Play();
 
         foreach (var g in disableOnDeath)
             g.SetActive(false);
