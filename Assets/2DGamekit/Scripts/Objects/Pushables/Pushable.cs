@@ -15,16 +15,16 @@ namespace Gamekit2D
         public Transform playerPushingLeftPosition;
         public Transform pushablePosition;
 
-        public AudioSource pushableAudioSource;
-        public AudioClip startingPushClip;
-        public AudioClip loopPushClip;
-        public AudioClip endPushClip;
+        public WwiseAudioPlayer pushableAudioSource;
+        public WwiseAudioPlayer floatingAudioSource;
 
         public bool Grounded {  get { return m_Grounded; } }
+        public bool Floating {  get { return m_Floating; } }
 
         protected SpriteRenderer m_SpriteRenderer;
         protected Rigidbody2D m_Rigidbody2D;
         protected bool m_Grounded;
+        protected bool m_Floating;
         Collider2D[] m_WaterColliders;
 
         void Awake ()
@@ -63,39 +63,27 @@ namespace Gamekit2D
 
             CheckGrounded();
 
-            for (int i = 0; i < m_WaterColliders.Length; i++)
+            CheckFloating();
+
+            if (m_Floating) 
             {
-                if (m_Rigidbody2D.IsTouching (m_WaterColliders[i]))
-                {
-                    m_Rigidbody2D.constraints |= RigidbodyConstraints2D.FreezePositionX;
-                }
+                m_Rigidbody2D.constraints |= RigidbodyConstraints2D.FreezePositionX;
             }
         }
 
         public void StartPushing()
         {
-            pushableAudioSource.loop = false;
-            pushableAudioSource.clip = startingPushClip;
             pushableAudioSource.Play();
         }
 
         public void EndPushing()
         {
-            pushableAudioSource.loop = false;
-            pushableAudioSource.clip = endPushClip;
-            pushableAudioSource.Play();
+            pushableAudioSource.Break();
         }
 
         public void Move (Vector2 movement)
         {
             m_Rigidbody2D.position = m_Rigidbody2D.position + movement;
-
-            if(!pushableAudioSource.isPlaying)
-            {
-                pushableAudioSource.clip = loopPushClip;
-                pushableAudioSource.loop = true;
-                pushableAudioSource.Play();
-            }
         }
 
         protected void CheckGrounded()
@@ -116,6 +104,20 @@ namespace Gamekit2D
                         //if it is grounded on another pushable, we ensure that it is drawn after the one under, so it appear on top.
                         m_SpriteRenderer.sortingOrder = pushable.m_SpriteRenderer.sortingOrder + 1;
                     }
+                }
+            }
+        }
+
+        protected void CheckFloating()
+        {
+            m_Floating = false;
+
+            for (int i = 0; i < m_WaterColliders.Length; i++)
+            {
+                if (m_Rigidbody2D.IsTouching(m_WaterColliders[i]))
+                {
+                    m_Floating = true;
+                    return;
                 }
             }
         }
