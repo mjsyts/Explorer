@@ -61,7 +61,7 @@ public class MissileGolem : MonoBehaviour
     // public AudioSource roundDeathSource;
     // public AudioClip startRound2Clip;
     // public AudioClip startRound3Clip;
-    public AudioClip deathClip;
+    // public AudioClip deathClip;
 
     [Header("UI")]
     public Slider healthSlider;
