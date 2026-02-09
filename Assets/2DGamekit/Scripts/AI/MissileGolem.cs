@@ -336,15 +336,15 @@ public class MissileGolem : MonoBehaviour
 
         if (round == 2)
         {
-            roundDeathSource.clip = startRound2Clip;
-            roundDeathSource.loop = true;
-            roundDeathSource.Play();
+            // roundDeathSource.clip = startRound2Clip;
+            // roundDeathSource.loop = true;
+            // roundDeathSource.Play();
         }
         else if (round == 3)
         {
-            roundDeathSource.clip = startRound3Clip;
-            roundDeathSource.loop = true;
-            roundDeathSource.Play();
+            // roundDeathSource.clip = startRound3Clip;
+            // roundDeathSource.loop = true;
+            // roundDeathSource.Play();
         }
     }
 
