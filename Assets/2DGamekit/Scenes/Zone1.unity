@@ -30118,46 +30118,6 @@ PrefabInstance:
       propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1728413113}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: debug
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: overrides.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: overrides.Array.data[0].tile
-      value: 
-      objectReference: {fileID: 11400000, guid: c0a72b2f2922a4241ba1735d8082c260,
-        type: 2}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: overrides.Array.data[1].tile
-      value: 
-      objectReference: {fileID: 11400000, guid: 1032823b40fd7ef4ea6f06b3e6c5c860,
-        type: 2}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: wwiseEvent.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 816026c22a6394a6cb686662da54a118,
-        type: 2}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: overrides.Array.data[0].wwiseSwitch.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: c57085060cd5d4795bb545e7ac013bd2,
-        type: 2}
-    - target: {fileID: 525473428296703325, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: overrides.Array.data[1].wwiseSwitch.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 5637faa0d900f4b92b357cbe88c94c7a,
-        type: 2}
     m_RemovedComponents:
     - {fileID: 81430354304811952, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
     m_RemovedGameObjects: []

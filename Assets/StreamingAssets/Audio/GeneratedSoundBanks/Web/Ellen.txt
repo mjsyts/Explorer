@@ -22,7 +22,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	51151621	SFX_Ellen_Footsteps_Grass_Jump_07	Y:\Explorer\.cache\31\{3151D4A6-5859-09CD-4735-DDC106043BBD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_07		42286
 	58169725	SFX_Ellen_Footsteps_Mud_Land_01	Y:\Explorer\.cache\FF\{FF491A76-C693-4B14-5BEE-E3BCE8BE1958}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Mud\SFX_Ellen_Footsteps_Mud_Land_01		69866
 	64679436	Footsteps_Grass_Jump_Land_07	Y:\Explorer\.cache\2C\{2CC0E05B-D1CF-47F5-4604-B26F69D1022D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_07		48286
-	66999381	Footsteps_Grass_Jump_Land_05	Y:\Explorer\.cache\86\{8608D259-A44D-A8FD-B487-0CF3B7E40F5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_05		52374
+	66999381	Footsteps_Grass_Jump_Land_05	Y:\Explorer\.cache\88\{88BB8E9E-93B3-897D-BA00-AB0FD6169CB8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_05		48048
 	86233403	SFX_Ellen_Footsteps_Grass_Run_11	Y:\Explorer\.cache\F6\{F692C3DB-7F97-F68E-2E8A-9373BC0A8BFE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_11		38978
 	91290963	Ellen_Footsteps_Rock_Jump_03	Y:\Explorer\.cache\81\{81140DE7-6DF4-9622-D2CA-2F5293EBFAC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_03		40240
 	95096826	SFX_Ellen_Emote_Jump_02	Y:\Explorer\.cache\EE\{EE430A72-16F2-D140-4D60-AE89C34259EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Emote\Jump\SFX_Ellen_Emote_Jump_02		51040

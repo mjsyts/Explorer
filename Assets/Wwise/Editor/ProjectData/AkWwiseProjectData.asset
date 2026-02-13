@@ -299,11 +299,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 7ba9fdb8b6329a42aa9fd7e8880751c2
+      guid: 66d7dae8b06d634f8b8a2e105e25b831
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
-    guid: 7ba9fdb8b6329a42aa9fd7e8880751c2
+    guid: 66d7dae8b06d634f8b8a2e105e25b831
     GuidInternal: 
-    m_lastTime: -8584314770145450661
+    m_lastTime: -8584306047321635323
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -314,11 +314,25 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
-        guid: 7ba9fdb8b6329a42aa9fd7e8880751c2
+        guid: 66d7dae8b06d634f8b8a2e105e25b831
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Staff_Swing
+      guid: dcdd272b47c0ec4186e266b73abdc414
+      id: 3312246262
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 66d7dae8b06d634f8b8a2e105e25b831
+      - ElementName: Staff_Swing
+        ObjectType: 2
+        guid: dcdd272b47c0ec4186e266b73abdc414
+      Path: Master-Mixer Hierarchy/Default Work Unit/Staff_Swing
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -355,12 +369,40 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: a3cf7d9db20aa84ca16b87a320bdfdc1
+      guid: 94e6d27c8f42174989ab20658e98940c
     ParentPath: Game Parameters/Default Work Unit
-    guid: a3cf7d9db20aa84ca16b87a320bdfdc1
+    guid: 94e6d27c8f42174989ab20658e98940c
     GuidInternal: 
-    m_lastTime: -8584314770145459204
-    List: []
+    m_lastTime: -8584306047321583011
+    List:
+    - name: Master_Volume
+      guid: 99734093bc1e234fa68c719d82bef2e0
+      id: 4179668880
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94e6d27c8f42174989ab20658e98940c
+      - ElementName: Master_Volume
+        ObjectType: 13
+        guid: 99734093bc1e234fa68c719d82bef2e0
+      Path: Game Parameters/Default Work Unit/Master_Volume
+    - name: Whoosh_Volume
+      guid: 8d627d62252ba54fa445e2c717d1bc7c
+      id: 3103638096
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94e6d27c8f42174989ab20658e98940c
+      - ElementName: Whoosh_Volume
+        ObjectType: 13
+        guid: 8d627d62252ba54fa445e2c717d1bc7c
+      Path: Game Parameters/Default Work Unit/Whoosh_Volume
   - PhysicalPath: Game Parameters/Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -654,7 +696,7 @@ MonoBehaviour:
     m_lastTime: -8584314770145420648
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000080000001100000012000000170000001800000019000000410000004200000049000000
+  ExpandedWaapiItemIds: 0600000007000000080000000900000011000000120000001700000018000000190000001e0000001f000000200000002f0000003000000031000000410000004200000049000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

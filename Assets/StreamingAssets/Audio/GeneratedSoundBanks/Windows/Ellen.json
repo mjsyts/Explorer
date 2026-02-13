@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1C686DFE-5089-4436-8C2E-763F7AD106CC}",
     "Language": "SFX",
-    "Hash": "{71423556-68E7-BF14-36DE-D3F8C7826F66}",
+    "Hash": "{22B0B7D2-CFD3-4193-65B4-6AD748E187AB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ellen",
     "ShortName": "Ellen",
     "Path": "Ellen.bnk",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Grass_Jump_Land_05.wav",
-      "CachePath": "86/{8608D259-A44D-A8FD-B487-0CF3B7E40F5C}.wem"
+      "CachePath": "88/{88BB8E9E-93B3-897D-BA00-AB0FD6169CB8}.wem"
      },
      {
       "Id": "86233403",
@@ -1233,6 +1233,6 @@
     ]
    }
   ],
-  "FileHash": "{46C24799-7419-1734-53F0-BC7E11FB8626}"
+  "FileHash": "{236B217D-A40A-2EBE-AA53-DBDA58797172}"
  }
 }
