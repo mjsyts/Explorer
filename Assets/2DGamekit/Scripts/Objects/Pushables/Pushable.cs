@@ -78,7 +78,8 @@ namespace Gamekit2D
 
         public void EndPushing()
         {
-            pushableAudioSource.Break();
+            // pushableAudioSource.Break();
+            pushableAudioSource.Stop();
         }
 
         public void Move (Vector2 movement)
