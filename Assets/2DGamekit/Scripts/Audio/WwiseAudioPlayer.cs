@@ -67,4 +67,15 @@ public class WwiseAudioPlayer : MonoBehaviour
             wwiseEvent.Stop(gameObject);
         }
     }
+
+    /// <summary>
+    /// Stops looping Wwise event
+    /// </summary>
+    public void Break()
+    {
+        if (wwiseEvent != null)
+        {
+            wwiseEvent.Break(gameObject);
+        }
+    }
 }
