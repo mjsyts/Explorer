@@ -49,6 +49,7 @@ namespace Gamekit2D
         public WwiseAudioPlayer hurtAudioPlayer;
         public WwiseAudioPlayer meleeAttackAudioPlayer;
         public WwiseAudioPlayer rangedAttackAudioPlayer;
+        public WwiseAudioPlayer jumpAudioPlayer;
         public float shotsPerSecond = 1f;
         public float bulletSpeed = 5f;
         public float holdingGunTimeoutDuration = 10f;

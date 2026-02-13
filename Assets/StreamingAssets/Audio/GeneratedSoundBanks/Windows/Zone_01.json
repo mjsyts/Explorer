@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4236486947",
+    "Type": "User",
+    "GUID": "{B2334358-BB67-4D3A-BC2E-88E86BC2CC65}",
+    "Language": "SFX",
+    "Hash": "{98EA44A5-F8C0-8521-4AF0-F9DEDCBB986A}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Zone_01",
+    "ShortName": "Zone_01",
+    "Path": "Zone_01.bnk",
+    "Media": [
+     {
+      "Id": "197238082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "161494-Car-Highlander-Hot_Ticks.wav",
+      "CachePath": "F6/{F62BBF7D-9BA6-8332-F292-BD58B77E9AF1}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "666694792",
+       "Name": "Soundseed Air Wind",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Zone_01\\Dropship\\AMB_Dropship_Fire_01\\Soundseed Air Wind",
+       "GUID": "{41846189-F94D-4F20-AA18-E29D2F08ED89}",
+       "LibName": "SoundSeed Air Wind",
+       "LibId": "7798786"
+      },
+      {
+       "Id": "739564493",
+       "Name": "Soundseed Grain",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Zone_01\\Dropship\\AMB_Dropship_Engine_Ticks_01\\Soundseed Grain",
+       "GUID": "{F771647E-87EE-4DD5-93BB-38529B196B52}",
+       "LibName": "SoundSeed Grain",
+       "LibId": "11993090",
+       "MediaRefs": [
+        {
+         "Id": "197238082"
+        }
+       ]
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3965147291",
+      "Name": "Play_Dropship",
+      "ObjectPath": "\\Events\\Default Work Unit\\Zone 1\\Play_Dropship",
+      "GUID": "{F68091C0-48B6-40FC-B1F8-639B5C1E9140}",
+      "MaxAttenuation": "9",
+      "DurationType": "Infinite",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "666694792"
+        },
+        {
+         "Id": "739564493"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7CA3E54E-7A4D-C526-9807-0F9A58DC2A4B}"
+ }
+}

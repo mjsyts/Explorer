@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Web",
+  "BasePlatform": "Web",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4236486944",
+    "Type": "User",
+    "GUID": "{26F9132D-A322-47BF-8DF8-35113B60AE8D}",
+    "Language": "SFX",
+    "Hash": "{D7482774-4E2B-4F92-9139-68F5CFFF1D91}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Zone_02",
+    "ShortName": "Zone_02",
+    "Path": "Zone_02.bnk"
+   }
+  ],
+  "FileHash": "{A231D16E-7130-DB30-0650-A3F52692DD21}"
+ }
+}

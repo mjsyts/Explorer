@@ -1,0 +1,68 @@
+{
+ "PluginInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Tone Generator",
+    "LibId": "6684674",
+    "Type": "Source",
+    "DLL": "AkToneGen",
+    "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "Wwise Compressor",
+    "LibId": "7077891",
+    "Type": "Effect",
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
+   },
+   {
+    "LibName": "SoundSeed Air Wind",
+    "LibId": "7798786",
+    "Type": "Source",
+    "DLL": "AkSoundSeedAir",
+    "StaticLib": "AkSoundSeedWindSource"
+   },
+   {
+    "LibName": "SoundSeed Air Woosh",
+    "LibId": "7864322",
+    "Type": "Source",
+    "DLL": "AkSoundSeedAir",
+    "StaticLib": "AkSoundSeedWooshSource"
+   },
+   {
+    "LibName": "Wwise Meter",
+    "LibId": "8454147",
+    "Type": "Effect",
+    "DLL": "AkSoundEngineDLL",
+    "StaticLib": "AkMeterFX"
+   },
+   {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "SoundSeed Grain",
+    "LibId": "11993090",
+    "Type": "Source",
+    "DLL": "AkSoundSeedGrain",
+    "StaticLib": "AkSoundSeedGrainSource"
+   }
+  ],
+  "FileHash": "{8C1DEFEE-D964-9A30-6BA7-8201B4CA6C01}"
+ }
+}

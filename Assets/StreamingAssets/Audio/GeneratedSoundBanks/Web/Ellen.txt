@@ -1,0 +1,83 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1186865283	Play_Swing_Staff			\Default Work Unit\Ellen\Play_Swing_Staff	
+	1602358412	Play_Footstep			\Default Work Unit\Ellen\Play_Footstep	
+	2323405115	Play_Landing			\Default Work Unit\Ellen\Play_Landing	
+	3689126666	Play_Jump			\Default Work Unit\Ellen\Play_Jump	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Footsteps\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	712897245	Mud	Material			
+	1216965916	Stone	Material			
+	4248645337	Grass	Material			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	484974174	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Weapons\Staff\SFX_Ellen_Weapon_Staff_Swing_01\SoundSeed Woosh	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	30639154	SFX_Ellen_Footsteps_Grass_Run_13	Y:\Explorer\.cache\94\{94ACA749-45A1-5B6A-FDF5-9F86DCC9156F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_13		38246
+	32799715	SFX_Ellen_Footsteps_Mud_Land_03	Y:\Explorer\.cache\06\{06082B70-D247-34D6-5003-6222F7AB05B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Mud\SFX_Ellen_Footsteps_Mud_Land_03		60048
+	43839769	SFX_Ellen_Footsteps_Mud_Run_01	Y:\Explorer\.cache\D0\{D0F8C6D2-2CF8-130C-7F63-202BA4869E35}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Mud\SFX_Ellen_Footsteps_Mud_Run_01		35014
+	51151621	SFX_Ellen_Footsteps_Grass_Jump_07	Y:\Explorer\.cache\31\{3151D4A6-5859-09CD-4735-DDC106043BBD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_07		42286
+	58169725	SFX_Ellen_Footsteps_Mud_Land_01	Y:\Explorer\.cache\FF\{FF491A76-C693-4B14-5BEE-E3BCE8BE1958}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Mud\SFX_Ellen_Footsteps_Mud_Land_01		69866
+	64679436	Footsteps_Grass_Jump_Land_07	Y:\Explorer\.cache\2C\{2CC0E05B-D1CF-47F5-4604-B26F69D1022D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_07		48286
+	66999381	Footsteps_Grass_Jump_Land_05	Y:\Explorer\.cache\86\{8608D259-A44D-A8FD-B487-0CF3B7E40F5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_05		52374
+	86233403	SFX_Ellen_Footsteps_Grass_Run_11	Y:\Explorer\.cache\F6\{F692C3DB-7F97-F68E-2E8A-9373BC0A8BFE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_11		38978
+	91290963	Ellen_Footsteps_Rock_Jump_03	Y:\Explorer\.cache\81\{81140DE7-6DF4-9622-D2CA-2F5293EBFAC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_03		40240
+	95096826	SFX_Ellen_Emote_Jump_02	Y:\Explorer\.cache\EE\{EE430A72-16F2-D140-4D60-AE89C34259EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Emote\Jump\SFX_Ellen_Emote_Jump_02		51040
+	115739064	Footsteps_Grass_Jump_Land_06	Y:\Explorer\.cache\76\{7677622B-4E16-AF2B-A11B-BF6CE75627FD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_06		57436
+	116786040	SFX_Ellen_Footsteps_Grass_Run_14	Y:\Explorer\.cache\9C\{9CBF07BE-3653-9077-9336-9F56DB59FEB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_14		35308
+	138113514	SFX_Ellen_Footsteps_Rock_Run_06	Y:\Explorer\.cache\F1\{F111D8CB-7063-E564-253F-049475D91C19}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_06		34192
+	147634662	SFX_Ellen_Footsteps_Grass_Jump_08	Y:\Explorer\.cache\A3\{A322E077-A8D9-F934-FD2F-5E22E73EB2AE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_08		37542
+	178942436	SFX_Ellen_Footsteps_Grass_Run_09	Y:\Explorer\.cache\05\{0570DFFD-954A-C7D8-94F3-1AB9E9A00994}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_09		42068
+	206912471	Ellen_Footsteps_Rock_Jump_04	Y:\Explorer\.cache\A3\{A3B029CD-7A8A-D889-1777-1A58219999B1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_04		44708
+	334862767	SFX_Ellen_Footsteps_Mud_Run_07	Y:\Explorer\.cache\CC\{CC7B9B8A-888E-ED60-C393-68597BD823CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Mud\SFX_Ellen_Footsteps_Mud_Run_07		39394
+	357950506	SFX_Ellen_Footsteps_Stone_Land_02	Y:\Explorer\.cache\21\{21B0404C-FD4B-2CF3-0226-53BBD7A595BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Stone\SFX_Ellen_Footsteps_Stone_Land_02		47746
+	359180895	Footsteps_Grass_Jump_Land_01	Y:\Explorer\.cache\7C\{7CDE1C55-1ADD-A0F4-E3FC-1F29D95F1F48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_01		47930
+	379755529	SFX_Ellen_Footsteps_Stone_Land_06	Y:\Explorer\.cache\B7\{B7100D4B-02AA-74E8-C15E-5F82F2AA0B07}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Stone\SFX_Ellen_Footsteps_Stone_Land_06		58354
+	399528470	SFX_Ellen_Footsteps_Rock_Run_02	Y:\Explorer\.cache\1E\{1E6BF702-72D9-117E-4452-EE6F8B7EE9E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_02		32794
+	419576088	Ellen_Footsteps_Rock_Jump_02	Y:\Explorer\.cache\B3\{B37A0679-8634-C514-027F-77993A0FBFC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_02		35122
+	426729658	SFX_Ellen_Footsteps_Rock_Run_03	Y:\Explorer\.cache\35\{35C2B070-C466-7A9E-7B07-0F672F2FC145}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_03		36776
+	433606042	SFX_Ellen_Footsteps_Stone_Land_04	Y:\Explorer\.cache\7E\{7EC3AC48-9937-5CC8-DE54-DF710AECC0A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Stone\SFX_Ellen_Footsteps_Stone_Land_04		50982
+	438376673	Footsteps_Grass_Jump_Land_04	Y:\Explorer\.cache\0E\{0E953F55-F66F-F5D5-1BEA-7D4AC4836A06}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_04		56078
+	440782724	Ellen_Footsteps_Rock_Jump_05	Y:\Explorer\.cache\40\{40BBFBA9-2FAC-323F-1D26-D633F56CCF8B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_05		34982
+	455906663	SFX_Ellen_Footsteps_Mud_Land_02	Y:\Explorer\.cache\B9\{B932F96B-C31F-A7CC-B965-A694946B3BFD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Mud\SFX_Ellen_Footsteps_Mud_Land_02		45334
+	478588519	SFX_Ellen_Footsteps_Grass_Run_10	Y:\Explorer\.cache\A7\{A71F9E62-2B22-A5BD-190D-E4A07559FF5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_10		33484
+	478647132	SFX_Ellen_Footsteps_Mud_Run_06	Y:\Explorer\.cache\5F\{5F0630F9-A08D-D800-9960-72A919538344}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Mud\SFX_Ellen_Footsteps_Mud_Run_06		36392
+	518687537	SFX_Ellen_Footsteps_Grass_Run_15	Y:\Explorer\.cache\82\{82A38F7F-F8FE-6557-1D28-DCB273EAC38E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_15		34512
+	527185137	SFX_Ellen_Footsteps_Mud_Run_04	Y:\Explorer\.cache\D5\{D5F4418C-0CA5-BF30-E00D-69023EB37533}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Mud\SFX_Ellen_Footsteps_Mud_Run_04		39814
+	527332469	SFX_Ellen_Footsteps_Stone_Land_03	Y:\Explorer\.cache\3F\{3F621FD4-A7D1-0C97-7392-225E45AA8CE9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Stone\SFX_Ellen_Footsteps_Stone_Land_03		41296
+	555367849	Footsteps_Grass_Jump_Land_08	Y:\Explorer\.cache\87\{87242E3F-CC4D-F744-3583-D1155F40B325}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_08		51866
+	566874212	Footsteps_Grass_Jump_Land_02	Y:\Explorer\.cache\19\{19A16B44-2009-C054-D42E-DFC34363348E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_02		43250
+	625587574	SFX_Ellen_Footsteps_Grass_Run_08	Y:\Explorer\.cache\68\{68B552C7-5A1E-3947-4D91-0BD6DFE6EF87}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_08		38076
+	632463975	SFX_Ellen_Footsteps_Stone_Land_01	Y:\Explorer\.cache\D5\{D5486DBE-8B69-470A-758D-7764AB7FB0BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Stone\SFX_Ellen_Footsteps_Stone_Land_01		53642
+	633082571	SFX_Ellen_Emote_Jump_01	Y:\Explorer\.cache\F6\{F6D1DC9E-D0C0-252D-5FCB-197EF249CF25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Emote\Jump\SFX_Ellen_Emote_Jump_01		26208
+	634436780	SFX_Ellen_Emote_Jump_00	Y:\Explorer\.cache\B9\{B9F6B4F8-23F9-1E85-F71C-5AB63C158891}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Emote\Jump\SFX_Ellen_Emote_Jump_00		25952
+	673422240	SFX_Ellen_Footsteps_Grass_Jump_02	Y:\Explorer\.cache\F7\{F7F748E5-B975-9335-11A4-9A0CF79BA3CD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_02		37286
+	693959463	SFX_Ellen_Footsteps_Stone_Land_05	Y:\Explorer\.cache\8B\{8B951CEE-50AE-CAA7-262B-156EE4B9B0B1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Stone\SFX_Ellen_Footsteps_Stone_Land_05		43484
+	695931987	SFX_Ellen_Footsteps_Grass_Jump_04	Y:\Explorer\.cache\5A\{5A485411-6581-FF45-2BC3-CB4A4A660AE7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_04		33636
+	698492886	Ellen_Footsteps_Rock_Jump_01	Y:\Explorer\.cache\72\{72BDFEC9-EBDA-9A53-C3BA-E4A29DD1733C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_01		34134
+	703734270	SFX_Ellen_Footsteps_Rock_Run_10	Y:\Explorer\.cache\78\{78CE0B8D-D987-84BB-B11F-82A6989813DC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_10		38084
+	711037635	SFX_Ellen_Footsteps_Rock_Run_08	Y:\Explorer\.cache\8C\{8C65FDBF-9285-F656-CE46-83DB58F3F1C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_08		35194
+	729176644	SFX_Ellen_Footsteps_Grass_Run_12	Y:\Explorer\.cache\5F\{5FF6E21D-CDBD-FC60-16F2-920318384AC7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Grass\SFX_Ellen_Footsteps_Grass_Run_12		35492
+	730854297	SFX_Ellen_Footsteps_Rock_Run_09	Y:\Explorer\.cache\4A\{4AF080FD-2475-B817-AC25-E34B0214EE93}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_09		36090
+	765693470	SFX_Ellen_Footsteps_Grass_Jump_03	Y:\Explorer\.cache\DA\{DA4E03DD-712D-96E7-C844-8C3EE44D631B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_03		29736
+	782935055	SFX_Ellen_Footsteps_Grass_Jump_06	Y:\Explorer\.cache\E8\{E84EA693-67C0-97CA-321A-50FE95011128}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_06		35770
+	789579606	SFX_Ellen_Footsteps_Grass_Jump_10	Y:\Explorer\.cache\E9\{E93AD963-9CD6-3A55-BD1B-B4C3F63C655A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_10		34536
+	798580173	SFX_Ellen_Footsteps_Grass_Jump_01	Y:\Explorer\.cache\F3\{F3784271-B059-CD35-2683-251813DFA047}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_01		33476
+	799914691	SFX_Ellen_Footsteps_Grass_Jump_05	Y:\Explorer\.cache\6C\{6CE4B20B-2338-2C35-30EA-AA0F14A10E46}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_05		43028
+	833144818	SFX_Ellen_Footsteps_Grass_Jump_09	Y:\Explorer\.cache\6E\{6E175DCB-E39B-98C1-D703-A4C452E5A2D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Grass_Mud\SFX_Ellen_Footsteps_Grass_Jump_09		35834
+	833171263	SFX_Ellen_Footsteps_Rock_Run_05	Y:\Explorer\.cache\3F\{3F37A8A7-1471-E528-2390-2291B29F6E7D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_05		33098
+	838402223	Footsteps_Grass_Jump_Land_10	Y:\Explorer\.cache\9E\{9EDB9ED9-5E98-4F51-BBA2-AD0F994C4184}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_10		58426
+	840658505	SFX_Ellen_Footsteps_Mud_Land_04	Y:\Explorer\.cache\13\{133EAFF9-C630-6403-0E35-EB754BEDEE8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Mud\SFX_Ellen_Footsteps_Mud_Land_04		53492
+	870531420	SFX_Ellen_Footsteps_Mud_Land_05	Y:\Explorer\.cache\01\{01CCAC64-1B34-F73C-3F41-F089097B9E28}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Mud\SFX_Ellen_Footsteps_Mud_Land_05		54988
+	933040017	SFX_Ellen_Footsteps_Rock_Run_07	Y:\Explorer\.cache\9B\{9B87A7E3-07C3-472A-F22B-044FCD7EA456}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_07		35392
+	963164380	Ellen_Footsteps_Rock_Jump_06	Y:\Explorer\.cache\06\{06A9FA82-263C-AB45-1AC9-25F2A2E13933}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Jump\Stone\Ellen_Footsteps_Rock_Jump_06		36362
+	968216473	SFX_Ellen_Footsteps_Mud_Run_03	Y:\Explorer\.cache\A5\{A54EBCD7-A1AB-0B91-70BA-A2552C0172EF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Mud\SFX_Ellen_Footsteps_Mud_Run_03		39750
+	983050798	SFX_Ellen_Footsteps_Rock_Run_04	Y:\Explorer\.cache\3C\{3C3823E2-611A-E410-B980-12574F1BFD9A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_04		34996
+	1007895369	Footsteps_Grass_Jump_Land_09	Y:\Explorer\.cache\D9\{D97E2CD7-55EB-3D5C-3552-6E62BDBE8F9B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_09		48194
+	1031553255	SFX_Ellen_Footsteps_Mud_Run_02	Y:\Explorer\.cache\DA\{DA2038ED-F9D0-043C-0D03-ACF102520EF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Mud\SFX_Ellen_Footsteps_Mud_Run_02		36002
+	1043586015	SFX_Ellen_Footsteps_Rock_Run_01	Y:\Explorer\.cache\E2\{E202A118-B3E7-4FA5-C57C-20F2DB37C392}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Run\Stone\SFX_Ellen_Footsteps_Rock_Run_01		38144
+	1057332660	Footsteps_Grass_Jump_Land_03	Y:\Explorer\.cache\34\{34F2BAF3-0A5C-5E89-6718-DD79EBE17096}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Locomotion\Land\Grass\Footsteps_Grass_Jump_Land_03		43682
+

@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	931488463	Play_Chomper_Attack			\Default Work Unit\Enemy\Play_Chomper_Attack	
+	1534211419	Play_Mosquito			\Default Work Unit\Zone 3\Play_Mosquito	
+	1739899664	Play_Enemy_Step_02			\Default Work Unit\Enemy\Play_Enemy_Step_02	
+	2937020452	Play_Enemy_Step_Log			\Default Work Unit\Enemy\Play_Enemy_Step_Log	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Footsteps\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	712897245	Mud	Material			
+	1216965916	Stone	Material			
+	4248645337	Grass	Material			
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	414935912	Mosquito_Freq			\Default Work Unit\Mosquito_Freq	
+	451619867	Mosquito_Amp			\Default Work Unit\Mosquito_Amp	
+	609970578	Mosquito_Detune			\Default Work Unit\Mosquito_Detune	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	333834113	Chomper_Kick_Env			\Default Work Unit\Chomper_Kick_Env	
+	894146846	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	670343618	Chomper_Bite	Wwise Compressor			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	34295622	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\SWT_Enemy_Chomper_Attack_Kick\Tone Generator	
+	449922386	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Environment\AMB_Mosquito_Buzz_01\Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	191010822	SWT_Enemy_Chomper_Scissors_04	Y:\Explorer\.cache\9A\{9AA74583-02F2-90D9-4931-0A8AF546B524}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Scissors\SWT_Enemy_Chomper_Scissors_04		36912
+	200082724	SWT_Enemies_Chomper_Pepper	Y:\Explorer\.cache\02\{020A985D-0F9C-4117-FB07-B2B3588F6F5E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Bell Pepper\SWT_Enemies_Chomper_Pepper		19304
+	213175578	SWT_Enemies_Chomper_Pepper_04	Y:\Explorer\.cache\91\{91E9525A-BB6F-F862-37B3-42C3A738612E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Bell Pepper\SWT_Enemies_Chomper_Pepper_04		25824
+	263829749	SFX_Chomper_Footsteps_Grass_03	Y:\Explorer\.cache\A7\{A76BFECB-B898-9CED-E725-732573339759}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_02\Grass\SFX_Chomper_Footsteps_Grass_03		20050
+	278119075	SWT_Enemy_Chomper_Scissors_03	Y:\Explorer\.cache\95\{95B6683B-8D8E-CC9C-2AC0-AE6FBB478148}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Scissors\SWT_Enemy_Chomper_Scissors_03		43924
+	304497728	SWT_Clipboard_Snap_02	Y:\Explorer\.cache\69\{69BD0965-F52C-B383-D4BD-A36D0DE55392}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Clipboard\SWT_Clipboard_Snap_02		43416
+	335182581	SWT_Enemy_Chomper_Scissors_01	Y:\Explorer\.cache\A4\{A493EFF5-DF59-DAC2-9107-16E668D28FFD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Scissors\SWT_Enemy_Chomper_Scissors_01		40416
+	344180807	SFX_Chomper_Footsteps_Grass_06	Y:\Explorer\.cache\A5\{A54B7452-7D31-031E-C816-A87101D6FFEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_Log\Grass\SFX_Chomper_Footsteps_Grass_06		28122
+	388586062	SFX_Chomper_Footsteps_Grass_01	Y:\Explorer\.cache\2A\{2A719B9A-3D58-4F51-5A27-C1EE6A7B93FE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_Log\Grass\SFX_Chomper_Footsteps_Grass_01		22218
+	397009341	SFX_Chomper_Footsteps_Grass_12	Y:\Explorer\.cache\EF\{EF2C44A1-FA5D-B8A5-126A-45BBF398CD34}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_Log\Grass\SFX_Chomper_Footsteps_Grass_12		22730
+	489448033	SFX_Chomper_Footsteps_Grass_11	Y:\Explorer\.cache\01\{01248E12-BE64-1DBA-84F9-1A9551BA76F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_Log\Grass\SFX_Chomper_Footsteps_Grass_11		24894
+	504938557	SWT_Enemy_Chomper_Scissors_02	Y:\Explorer\.cache\BD\{BDC7912B-407B-FBAC-EFC1-A5F2B5E30BAF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Scissors\SWT_Enemy_Chomper_Scissors_02		38668
+	555992934	SWT_Enemies_Chomper_Pepper_01	Y:\Explorer\.cache\76\{7667D8FB-F91C-3F71-B40E-EA6DD972433D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Bell Pepper\SWT_Enemies_Chomper_Pepper_01		29560
+	574391140	SFX_Chomper_Footsteps_Grass_10	Y:\Explorer\.cache\EA\{EA63FEF4-C0FB-3BA9-0B26-B7C84E495D53}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_Log\Grass\SFX_Chomper_Footsteps_Grass_10		23608
+	616364334	SFX_Chomper_Footsteps_Grass_09	Y:\Explorer\.cache\B1\{B1204EA1-7AFA-16D3-692B-302E4675E1DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_02\Grass\SFX_Chomper_Footsteps_Grass_09		20420
+	655056633	SFX_Chomper_Footsteps_Grass_04	Y:\Explorer\.cache\A7\{A785CE59-4A07-3318-7CD8-B39827D7F5CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_02\Grass\SFX_Chomper_Footsteps_Grass_04		19524
+	678492801	SFX_Chomper_Footsteps_Grass_02	Y:\Explorer\.cache\89\{8922CF41-F56E-2368-AE96-45C77D5FBDFA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_02\Grass\SFX_Chomper_Footsteps_Grass_02		23092
+	698145086	SFX_Chomper_Footsteps_Grass_05	Y:\Explorer\.cache\FB\{FB2A8A77-0370-A794-4947-6608AB1BC627}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_02\Grass\SFX_Chomper_Footsteps_Grass_05		24012
+	842310254	SWT_Enemies_Chomper_Pepper_02	Y:\Explorer\.cache\B1\{B1AC83A0-D072-8396-0E50-057B6A1E51E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Bell Pepper\SWT_Enemies_Chomper_Pepper_02		23508
+	892304267	SFX_Chomper_Footsteps_Grass_08	Y:\Explorer\.cache\CD\{CD76D79E-9430-ABBF-6377-D9BA8F4B332C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_Log\Grass\SFX_Chomper_Footsteps_Grass_08		20380
+	904519857	SWT_Enemies_Chomper_Pepper_03	Y:\Explorer\.cache\04\{040F1959-0430-AB7D-5D0B-D1868FE627B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Bell Pepper\SWT_Enemies_Chomper_Pepper_03		23136
+	928614468	SWT_Clipboard_Snap_01	Y:\Explorer\.cache\E0\{E04DBEEC-F2D8-639A-F316-D2E76BA4CC8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomp\Clipboard\SWT_Clipboard_Snap_01		45816
+	984388361	SFX_Chomper_Footsteps_Grass_07	Y:\Explorer\.cache\60\{60DD0E82-43D2-7A40-32EB-38AF2C9D962C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Footsteps_02\Grass\SFX_Chomper_Footsteps_Grass_07		26546
+

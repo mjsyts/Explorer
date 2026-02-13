@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3965147291	Play_Dropship			\Default Work Unit\Zone 1\Play_Dropship	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	205179248	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	666694792	Soundseed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Zone_01\Dropship\AMB_Dropship_Fire_01\Soundseed Air Wind	
+	739564493	Soundseed Grain	SoundSeed Grain		\Actor-Mixer Hierarchy\Default Work Unit\Zone_01\Dropship\AMB_Dropship_Engine_Ticks_01\Soundseed Grain	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	197238082	Soundseed Grain	Y:\Explorer\.cache\F6\{F62BBF7D-9BA6-8332-F292-BD58B77E9AF1}.wem	SoundSeed Grain (Custom)	\Actor-Mixer Hierarchy\Default Work Unit\Zone_01\Dropship\AMB_Dropship_Engine_Ticks_01\Soundseed Grain		6738016
+

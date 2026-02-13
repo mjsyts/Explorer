@@ -20,7 +20,10 @@ namespace Gamekit2D
             m_MonoBehaviour.CheckForHoldingGun();
             m_MonoBehaviour.CheckAndFireGun ();
             if (m_MonoBehaviour.CheckForJumpInput ())
+            {
                 m_MonoBehaviour.SetVerticalMovement(m_MonoBehaviour.jumpSpeed);
+                m_MonoBehaviour.jumpAudioPlayer.Play();
+            }
             else if(m_MonoBehaviour.CheckForMeleeAttackInput ())
                 m_MonoBehaviour.MeleeAttack();
         }

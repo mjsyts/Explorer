@@ -37,7 +37,9 @@ namespace Gamekit2D
         public float tension = 0.025f;
         public float neighbourTransfer = 0.03f;
 
-        public RandomAudioPlayer splashPlayerPrefab;
+        public WwiseAudioPlayer splashPlayer;
+
+        public Transform splashPosition;
 
         public BoxCollider2D boxCollider2D
         {
@@ -57,10 +59,6 @@ namespace Gamekit2D
         protected WaterColumn[] m_Columns;
         protected float m_Width;
         protected Vector2 m_LowerCorner;
-
-        protected RandomAudioPlayer[] m_SplashSourcePool;
-        protected int m_CurrentSplashPlayer = 0;
-        readonly int m_SplashPlayerPoolSize = 5;
         protected Vector3[] meshVertices;
 
         private void OnEnable()
@@ -69,24 +67,6 @@ namespace Gamekit2D
 
             m_BoxCollider.isTrigger = true;
 
-#if UNITY_EDITOR
-            if (Application.isPlaying)
-            {
-                //we don't want to do it in editor when not playing as it would leak object
-#endif
-                if (splashPlayerPrefab != null)
-                {
-                    m_SplashSourcePool = new RandomAudioPlayer[m_SplashPlayerPoolSize];
-                    for (int i = 0; i < m_SplashPlayerPoolSize; ++i)
-                    {
-                        m_SplashSourcePool[i] = Instantiate(splashPlayerPrefab);
-                        m_SplashSourcePool[i].transform.SetParent(transform);
-                        m_SplashSourcePool[i].gameObject.SetActive(false);
-                    }
-                }
-#if UNITY_EDITOR
-            }
-#endif
             AdjustComponentSizes();
             RecomputeMesh();
             SetSortingLayer();
@@ -96,12 +76,12 @@ namespace Gamekit2D
             {
                 //we don't want to do it in editor when not playing as it would leak object
 #endif
-                m_Bubbles.Play();
-                m_Steam.Play();
+            m_Bubbles.Play();
+            m_Steam.Play();
 #if UNITY_EDITOR
             }
 #endif
-                
+
 
             meshVertices = m_Mesh.vertices;
         }
@@ -174,8 +154,8 @@ namespace Gamekit2D
             {
                 //we don't want to do it in editor when not playing as it would leak object
 #endif
-                m_Steam.Simulate(0.1f);
-                m_Bubbles.Simulate(0.1f);
+            m_Steam.Simulate(0.1f);
+            m_Bubbles.Simulate(0.1f);
 #if UNITY_EDITOR
             }
 #endif
@@ -221,8 +201,8 @@ namespace Gamekit2D
                 normal[i * 2 + 0].Set(0, 0, 1);
                 normal[i * 2 + 1].Set(0, 0, 1);
 
-                uvs[i * 2 + 0].Set(((float) i) / count, 0);
-                uvs[i * 2 + 1].Set(((float) i) / count, 1);
+                uvs[i * 2 + 0].Set(((float)i) / count, 0);
+                uvs[i * 2 + 1].Set(((float)i) / count, 1);
 
                 //Set the 2nd uv set to local position, allow for coherent tiling of normal map
                 uvs2[i * 2 + 0].Set(pts[i * 2 + 0].x, pts[i * 2 + 0].y);
@@ -271,23 +251,11 @@ namespace Gamekit2D
 
         private void PlaySplash(Vector3 position)
         {
-#if UNITY_EDITOR
-            if (!Application.isPlaying)
+            if (splashPlayer == null)
                 return;
-#endif
 
-            if (splashPlayerPrefab == null)
-                return; //the splash prefab wasn't set, we don't have any instance of it to play sound
-
-            int use = m_CurrentSplashPlayer;
-            m_CurrentSplashPlayer = (m_CurrentSplashPlayer + 1) % m_SplashPlayerPoolSize;
-
-            m_SplashSourcePool[use].transform.position = position;
-
-            //disable/enable to force the effect to
-            m_SplashSourcePool[use].gameObject.SetActive(false);
-            m_SplashSourcePool[use].gameObject.SetActive(true);
-            m_SplashSourcePool[use].PlayRandomSound();
+            splashPosition.position = position;
+            splashPlayer.Play();
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
@@ -349,7 +317,6 @@ namespace Gamekit2D
         protected SerializedProperty m_SizeProp;
         protected SerializedProperty m_SortingLayerProp;
         protected SerializedProperty m_SortingLayerOrderProp;
-        protected SerializedProperty m_SplashPlayerPrefabProp;
 
         protected string[] m_SortingLayers;
         protected int m_CurrentLayer;
@@ -386,7 +353,6 @@ namespace Gamekit2D
             m_SizeProp = serializedObject.FindProperty("size");
             m_SortingLayerProp = serializedObject.FindProperty("sortingLayer");
             m_SortingLayerOrderProp = serializedObject.FindProperty("sortingLayerOrder");
-            m_SplashPlayerPrefabProp = serializedObject.FindProperty("splashPlayerPrefab");
         }
 
         public override void OnInspectorGUI()
@@ -443,7 +409,6 @@ namespace Gamekit2D
                 EditorUtility.SetDirty(target);
             }
 
-            EditorGUILayout.PropertyField(m_SplashPlayerPrefabProp);
 
             serializedObject.ApplyModifiedProperties();
 

@@ -1,0 +1,457 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Web",
+  "BasePlatform": "Web",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4236486945",
+    "Type": "User",
+    "GUID": "{51BB6120-C679-4C21-BC13-A16C34300858}",
+    "Language": "SFX",
+    "Hash": "{67742BDF-4320-1331-FFE2-C9359F9A4434}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Zone_03",
+    "ShortName": "Zone_03",
+    "Path": "Zone_03.bnk",
+    "Media": [
+     {
+      "Id": "191010822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "507468-paper-scissors-cutting-004.wav",
+      "CachePath": "9A/{9AA74583-02F2-90D9-4931-0A8AF546B524}.wem"
+     },
+     {
+      "Id": "200082724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "263405-Gore_Bell_Pepper-01.wav",
+      "CachePath": "02/{020A985D-0F9C-4117-FB07-B2B3588F6F5E}.wem"
+     },
+     {
+      "Id": "213175578",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "263405-Gore_Bell_Pepper-01.wav",
+      "CachePath": "91/{91E9525A-BB6F-F862-37B3-42C3A738612E}.wem"
+     },
+     {
+      "Id": "263829749",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_33.wav",
+      "CachePath": "A7/{A76BFECB-B898-9CED-E725-732573339759}.wem"
+     },
+     {
+      "Id": "278119075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "507468-paper-scissors-cutting-004.wav",
+      "CachePath": "95/{95B6683B-8D8E-CC9C-2AC0-AE6FBB478148}.wem"
+     },
+     {
+      "Id": "304497728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "144565-Plastic_clipboard_snapping.wav",
+      "CachePath": "69/{69BD0965-F52C-B383-D4BD-A36D0DE55392}.wem"
+     },
+     {
+      "Id": "335182581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "507468-paper-scissors-cutting-004.wav",
+      "CachePath": "A4/{A493EFF5-DF59-DAC2-9107-16E668D28FFD}.wem"
+     },
+     {
+      "Id": "344180807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_36.wav",
+      "CachePath": "A5/{A54B7452-7D31-031E-C816-A87101D6FFEE}.wem"
+     },
+     {
+      "Id": "388586062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_31.wav",
+      "CachePath": "2A/{2A719B9A-3D58-4F51-5A27-C1EE6A7B93FE}.wem"
+     },
+     {
+      "Id": "397009341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_42.wav",
+      "CachePath": "EF/{EF2C44A1-FA5D-B8A5-126A-45BBF398CD34}.wem"
+     },
+     {
+      "Id": "489448033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_41.wav",
+      "CachePath": "01/{01248E12-BE64-1DBA-84F9-1A9551BA76F5}.wem"
+     },
+     {
+      "Id": "504938557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "507468-paper-scissors-cutting-004.wav",
+      "CachePath": "BD/{BDC7912B-407B-FBAC-EFC1-A5F2B5E30BAF}.wem"
+     },
+     {
+      "Id": "555992934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "263405-Gore_Bell_Pepper-01.wav",
+      "CachePath": "76/{7667D8FB-F91C-3F71-B40E-EA6DD972433D}.wem"
+     },
+     {
+      "Id": "574391140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_40.wav",
+      "CachePath": "EA/{EA63FEF4-C0FB-3BA9-0B26-B7C84E495D53}.wem"
+     },
+     {
+      "Id": "616364334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_39.wav",
+      "CachePath": "B1/{B1204EA1-7AFA-16D3-692B-302E4675E1DE}.wem"
+     },
+     {
+      "Id": "655056633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_34.wav",
+      "CachePath": "A7/{A785CE59-4A07-3318-7CD8-B39827D7F5CA}.wem"
+     },
+     {
+      "Id": "678492801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_32.wav",
+      "CachePath": "89/{8922CF41-F56E-2368-AE96-45C77D5FBDFA}.wem"
+     },
+     {
+      "Id": "698145086",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_35.wav",
+      "CachePath": "FB/{FB2A8A77-0370-A794-4947-6608AB1BC627}.wem"
+     },
+     {
+      "Id": "842310254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "263405-Gore_Bell_Pepper-01.wav",
+      "CachePath": "B1/{B1AC83A0-D072-8396-0E50-057B6A1E51E2}.wem"
+     },
+     {
+      "Id": "892304267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_38.wav",
+      "CachePath": "CD/{CD76D79E-9430-ABBF-6377-D9BA8F4B332C}.wem"
+     },
+     {
+      "Id": "904519857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "263405-Gore_Bell_Pepper-01.wav",
+      "CachePath": "04/{040F1959-0430-AB7D-5D0B-D1868FE627B4}.wem"
+     },
+     {
+      "Id": "928614468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "144565-Plastic_clipboard_snapping.wav",
+      "CachePath": "E0/{E04DBEEC-F2D8-639A-F316-D2E76BA4CC8E}.wem"
+     },
+     {
+      "Id": "984388361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Walk_Grass_Mono_37.wav",
+      "CachePath": "60/{60DD0E82-43D2-7A40-32EB-38AF2C9D962C}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "34295622",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Enemies\\Chomp\\SWT_Enemy_Chomper_Attack_Kick\\Tone Generator",
+       "GUID": "{DC46BE60-A328-4FEA-BD5A-87BD3984F04D}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "449922386",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Environment\\AMB_Mosquito_Buzz_01\\Synth One",
+       "GUID": "{ED003907-9BFD-423A-B371-127C006CB1D7}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "670343618",
+       "Name": "Chomper_Bite",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Chomper_Bite",
+       "GUID": "{E65DF812-B039-4C0D-AD21-904D6BC940D6}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "931488463",
+      "Name": "Play_Chomper_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Chomper_Attack",
+      "GUID": "{D14B7FD0-E152-4A13-828F-211C12E38508}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.50552595",
+      "DurationMax": "0.5335627",
+      "MediaRefs": [
+       {
+        "Id": "191010822"
+       },
+       {
+        "Id": "200082724"
+       },
+       {
+        "Id": "213175578"
+       },
+       {
+        "Id": "278119075"
+       },
+       {
+        "Id": "304497728"
+       },
+       {
+        "Id": "335182581"
+       },
+       {
+        "Id": "504938557"
+       },
+       {
+        "Id": "555992934"
+       },
+       {
+        "Id": "842310254"
+       },
+       {
+        "Id": "904519857"
+       },
+       {
+        "Id": "928614468"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "34295622"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "670343618"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1739899664",
+      "Name": "Play_Enemy_Step_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Step_02",
+      "GUID": "{88AE5E67-CA87-40B5-87EE-94645D7A7FDC}",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17017634",
+      "DurationMax": "0.34716424",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "4248645337",
+         "GUID": "{73E494FA-E143-4AD9-9DB4-A22D4F71A9F6}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "263829749"
+         },
+         {
+          "Id": "344180807"
+         },
+         {
+          "Id": "388586062"
+         },
+         {
+          "Id": "397009341"
+         },
+         {
+          "Id": "489448033"
+         },
+         {
+          "Id": "574391140"
+         },
+         {
+          "Id": "616364334"
+         },
+         {
+          "Id": "655056633"
+         },
+         {
+          "Id": "678492801"
+         },
+         {
+          "Id": "698145086"
+         },
+         {
+          "Id": "892304267"
+         },
+         {
+          "Id": "984388361"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2937020452",
+      "Name": "Play_Enemy_Step_Log",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Play_Enemy_Step_Log",
+      "GUID": "{696C5347-68F0-44D8-B38B-96F5F54FFBCE}",
+      "MaxAttenuation": "7",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17017634",
+      "DurationMax": "0.34716424",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "4248645337",
+         "GUID": "{73E494FA-E143-4AD9-9DB4-A22D4F71A9F6}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "263829749"
+         },
+         {
+          "Id": "344180807"
+         },
+         {
+          "Id": "388586062"
+         },
+         {
+          "Id": "397009341"
+         },
+         {
+          "Id": "489448033"
+         },
+         {
+          "Id": "574391140"
+         },
+         {
+          "Id": "616364334"
+         },
+         {
+          "Id": "655056633"
+         },
+         {
+          "Id": "678492801"
+         },
+         {
+          "Id": "698145086"
+         },
+         {
+          "Id": "892304267"
+         },
+         {
+          "Id": "984388361"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1534211419",
+      "Name": "Play_Mosquito",
+      "ObjectPath": "\\Events\\Default Work Unit\\Zone 3\\Play_Mosquito",
+      "GUID": "{2C574538-A82A-4F36-A6F9-A01549953043}",
+      "MaxAttenuation": "6",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "449922386"
+        }
+       ]
+      }
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Material",
+      "GUID": "{B0E1E1AA-6E66-470E-8DA3-5A20F6AB688C}",
+      "Switches": [
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Material\\Mud",
+        "GUID": "{9D15E648-86F5-4142-8848-CFF0A86D3623}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Material\\Stone",
+        "GUID": "{0B7860A8-854E-4069-8E36-9466C0734556}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Material\\Grass",
+        "GUID": "{73E494FA-E143-4AD9-9DB4-A22D4F71A9F6}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D394CBBE-F9DD-1D84-734A-292A8AA4D70E}"
+ }
+}
