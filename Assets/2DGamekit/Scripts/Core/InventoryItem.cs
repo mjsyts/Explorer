@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 namespace Gamekit2D
@@ -14,7 +15,7 @@ namespace Gamekit2D
         [HideInInspector]
         new public CircleCollider2D collider;
 
-        public AudioClip clip;
+        public WwiseAudioPlayer wwiseAudioPlayer;
         public DataSettings dataSettings;
 
         void OnEnable()
@@ -49,7 +50,7 @@ namespace Gamekit2D
                     Save();
                 }
 
-                if (clip) AudioSource.PlayClipAtPoint(clip, transform.position);
+                wwiseAudioPlayer.Play(); // This might need a transform?
 
             }
         }
